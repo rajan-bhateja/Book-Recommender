@@ -97,8 +97,8 @@ tones = ["All"] + ["Happy", "Surprising", "Angry", "Suspenseful", "Sad"]
 
 
 # Streamlit UI
-st.set_page_config(page_title="RAG-Based Book Recommender System", layout="wide")
-st.title("RAG-Based Book Recommender System")
+st.set_page_config(page_title="Semantic Book Recommendation System", layout="wide")
+st.title("Semantic Book Recommendation System")
 st.caption("Powered by Langchain, Google Embeddings, Hugging Face, and ChromaDB")
 st.write("Get book recommendations based on description, preferred categories and desired tones.")
 
